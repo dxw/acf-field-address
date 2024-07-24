@@ -27,6 +27,12 @@ This ACF field type is compatible with:
 3. Create a new field via ACF and select the Address type.
 
 ## Changelog
+5.1.1 - First dxw fork release
+  - Applies versioning to the following changes already made upstream:
+  - fixed a bug where older code was no longer transforming old formats from pre version 4
+  - fixed PHP error notices
+  - fixed unicode escaping
+
 5.1.0 - Fixed bug preventing the creation of new Address fields.
 
   - Fixed bug rendering the field to html
